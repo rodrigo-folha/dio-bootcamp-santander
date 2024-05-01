@@ -1,4 +1,4 @@
-package equipamento;
+package equipamento.navegador;
 
 public interface NavegadorInternet {
 	public void exibirPagina();

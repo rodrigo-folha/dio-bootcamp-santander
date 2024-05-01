@@ -1,5 +1,9 @@
 package equipamento;
 
+import equipamento.aparalho_telefonico.AparelhoTelefonico;
+import equipamento.navegador.NavegadorInternet;
+import equipamento.reprodutor_musical.ReprodutorMusical;
+
 public class Iphone implements AparelhoTelefonico, ReprodutorMusical, NavegadorInternet {
 	
 	public void ligar() {

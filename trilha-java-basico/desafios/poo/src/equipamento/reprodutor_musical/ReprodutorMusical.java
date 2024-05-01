@@ -1,4 +1,4 @@
-package equipamento;
+package equipamento.reprodutor_musical;
 
 public interface ReprodutorMusical {
 	public void tocar();
