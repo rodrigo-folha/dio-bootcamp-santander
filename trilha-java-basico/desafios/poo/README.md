@@ -1,9 +1,3 @@
-# DIO - Trilha Java Básico
-www.dio.me
-
-#### Autores
-- [Gleyson Sampaio](https://github.com/glysns)
-
 ## POO - Desafio
 
 Modelagem e diagramação da representação em UML e Código no que se refere ao componente iPhone.
@@ -12,9 +6,5 @@ Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma
 
 [Lançamento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8)
 
-- Minutos relevantes do 00:15 até 00:55
-
-###### Comportamentos esperados:
-* Repodutor Musicial: tocar, pausar, selecionarMusica
-* Aparelho Telefônico: ligar, atender, iniciarCorrerioVoz
-* Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
+## Diagrama UML Desenvolvido
+![UML Desafio](https://github.com/rodrigo-folha/dio-bootcamp-santander/assets/146641524/6e51208a-aa9c-4ba7-8bf1-c04e6c57ea14)
