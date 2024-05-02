@@ -1,4 +1,4 @@
-package main.java.list.operacoes_basicas;
+package main.java.list.operacoes_basicas.questao01;
 
 public class Questao1 {
 	public static void main(String[] args) {
