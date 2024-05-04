@@ -12,6 +12,7 @@ public class Principal {
 
 	    // Adicionando contatos à agenda
 	    agendaContatos.adicionarContato("João", 123456789);
+	    agendaContatos.adicionarContato("João", 51111111);
 	    agendaContatos.adicionarContato("Maria", 987654321);
 	    agendaContatos.adicionarContato("Maria Fernandes", 55555555);
 	    agendaContatos.adicionarContato("Ana", 88889999);
