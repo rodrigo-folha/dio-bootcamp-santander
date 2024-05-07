@@ -28,7 +28,10 @@ public class Desafio05 {
 		Predicate<Integer> filtroMaiorQueCinco = n -> n > 5;
 		BinaryOperator<Integer> soma = (n1, n2) -> n1 + n2;
 		
-		int resultado = numeros.stream().filter(filtroMaiorQueCinco).reduce(0,soma);
+		int resultado = numeros.stream()
+				.filter(filtroMaiorQueCinco)
+				.reduce(0,soma);
+		
 		System.out.println("A somatória dos numeros maiores que 5 é: " + resultado);
 	}
 }
