@@ -33,5 +33,13 @@ public class Desafio05 {
 				.reduce(0,soma);
 		
 		System.out.println("A somatória dos numeros maiores que 5 é: " + resultado);
+		
+		List<Integer> maioresQueCinco = numeros.stream().filter(filtroMaiorQueCinco).map(n -> n).toList();
+		int somatoria = maioresQueCinco.stream().reduce(0, soma);
+		
+		double media = somatoria / maioresQueCinco.size();
+		
+		System.out.println("A média dos números maiores que cinco é igual a: " + media);
+		
 	}
 }

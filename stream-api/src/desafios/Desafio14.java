@@ -22,6 +22,8 @@ public class Desafio14 {
             return true;
 		};
 		
+		numeros.stream().filter(numeroPrimo).forEach(System.out::println);
+		
 		List<Integer> numerosPrimos = numeros.stream().filter(numeroPrimo).sorted().toList();
 		
 		int maiorPrimo = numerosPrimos.get(numerosPrimos.size() - 1);
